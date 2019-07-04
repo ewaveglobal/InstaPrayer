@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="InstaPrayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v_gray.png" translatesAutoresizingMaskIntoConstraints="NO" id="pfi-cG-GnN">
+                        <rect key="frame" x="273" y="10" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="Nli-a6-ca2"/>
+                            <constraint firstAttribute="height" constant="22" id="Pla-rt-w8b"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wos-um-VTD" customClass="PaylotTextField" customModule="InstaPrayer" customModuleProvider="target">
+                        <rect key="frame" x="25" y="5" width="241" height="33.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJX-6G-xRh">
+                        <rect key="frame" x="25" y="38.5" width="270" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ruP-Ao-ohU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wos-um-VTD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Bvx-8t-eJ8"/>
+                    <constraint firstItem="wos-um-VTD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="QiO-bV-V03"/>
+                    <constraint firstItem="pfi-cG-GnN" firstAttribute="leading" secondItem="wos-um-VTD" secondAttribute="trailing" constant="7" id="RiR-E0-Zka"/>
+                    <constraint firstAttribute="trailing" secondItem="pfi-cG-GnN" secondAttribute="trailing" constant="25" id="V96-nU-87t"/>
+                    <constraint firstItem="pfi-cG-GnN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Wy6-LB-uJs"/>
+                    <constraint firstAttribute="bottom" secondItem="wos-um-VTD" secondAttribute="bottom" constant="5" id="YC0-rG-UNb"/>
+                    <constraint firstItem="CJX-6G-xRh" firstAttribute="trailing" secondItem="pfi-cG-GnN" secondAttribute="trailing" id="bC7-Ar-5eW"/>
+                    <constraint firstItem="CJX-6G-xRh" firstAttribute="top" secondItem="wos-um-VTD" secondAttribute="bottom" id="nLy-E1-jaY"/>
+                    <constraint firstItem="CJX-6G-xRh" firstAttribute="leading" secondItem="wos-um-VTD" secondAttribute="leading" id="uBy-ic-m6q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="ivCheck" destination="pfi-cG-GnN" id="bJz-oE-aaD"/>
+                <outlet property="tfDetails" destination="wos-um-VTD" id="iCp-b5-Nbf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="v_gray.png" width="44" height="44"/>
+    </resources>
+</document>

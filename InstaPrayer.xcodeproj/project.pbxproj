@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4C107C74C41C5DF7C0D239 /* libPods-InstaPrayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A27636A9E769F0F748BBEC1A /* libPods-InstaPrayer.a */; };
+		121194671D76FF8400DA62F6 /* UserDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121194651D76FF8400DA62F6 /* UserDetailsVc.swift */; };
+		121194681D76FF8400DA62F6 /* UserDetailsVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 121194661D76FF8400DA62F6 /* UserDetailsVc.xib */; };
+		1247545F1DE359C600FA5870 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247545E1DE359C600FA5870 /* MainVc.swift */; };
+		125F01F41D7D6BD300EA1CAF /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F01F21D7D6BD300EA1CAF /* SettingVC.swift */; };
+		125F01F51D7D6BD300EA1CAF /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125F01F31D7D6BD300EA1CAF /* SettingVC.xib */; };
+		127386491D78163500F70FFE /* ChoosePlanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127386471D78163500F70FFE /* ChoosePlanVc.swift */; };
+		1273864A1D78163500F70FFE /* ChoosePlanVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127386481D78163500F70FFE /* ChoosePlanVc.xib */; };
+		1273864E1D781F2B00F70FFE /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273864C1D781F2B00F70FFE /* ThankYouVC.swift */; };
+		1273864F1D781F2B00F70FFE /* ThankYouVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1273864D1D781F2B00F70FFE /* ThankYouVC.xib */; };
+		127386591D7821B400F70FFE /* ContactUsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127386571D7821B400F70FFE /* ContactUsVc.swift */; };
+		1273865A1D7821B400F70FFE /* ContactUsVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127386581D7821B400F70FFE /* ContactUsVc.xib */; };
+		1273865D1D78249A00F70FFE /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273865B1D78249A00F70FFE /* TermsVC.swift */; };
+		1273865E1D78249A00F70FFE /* TermsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1273865C1D78249A00F70FFE /* TermsVC.xib */; };
+		127386601D7827F600F70FFE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1273865F1D7827F600F70FFE /* MessageUI.framework */; };
+		128069041E87D4FC0000B4D4 /* DetailesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128069021E87D4FC0000B4D4 /* DetailesVc.swift */; };
+		128069051E87D4FC0000B4D4 /* DetailesVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128069031E87D4FC0000B4D4 /* DetailesVc.xib */; };
+		128069081E87D5AB0000B4D4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128069061E87D5AB0000B4D4 /* TableViewCell.swift */; };
+		128069091E87D5AB0000B4D4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128069071E87D5AB0000B4D4 /* TableViewCell.xib */; };
+		1280690C1E8803D90000B4D4 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280690A1E8803D90000B4D4 /* ImageCell.swift */; };
+		1280690D1E8803D90000B4D4 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1280690B1E8803D90000B4D4 /* ImageCell.xib */; };
+		128069101E880F480000B4D4 /* checkboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280690E1E880F480000B4D4 /* checkboxCell.swift */; };
+		128069111E880F480000B4D4 /* checkboxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1280690F1E880F480000B4D4 /* checkboxCell.xib */; };
+		1283A0AF1D7852A8005EF003 /* PrayerObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A0AE1D7852A8005EF003 /* PrayerObj.swift */; };
+		1283A0B21D785713005EF003 /* BaseRespone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A0B11D785713005EF003 /* BaseRespone.swift */; };
+		1283A0B41D7C0A58005EF003 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0B31D7C0A58005EF003 /* Accelerate.framework */; };
+		1283A0B61D7C0A61005EF003 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0B51D7C0A61005EF003 /* AudioToolbox.framework */; };
+		1283A0B81D7C0A69005EF003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0B71D7C0A69005EF003 /* AVFoundation.framework */; };
+		1283A0BA1D7C0A72005EF003 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0B91D7C0A72005EF003 /* CoreLocation.framework */; };
+		1283A0BC1D7C0A7A005EF003 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0BB1D7C0A7A005EF003 /* CoreMedia.framework */; };
+		1283A0BE1D7C0A85005EF003 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0BD1D7C0A85005EF003 /* MobileCoreServices.framework */; };
+		1283A0C01D7C0A8F005EF003 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0BF1D7C0A8F005EF003 /* SystemConfiguration.framework */; };
+		1283A0C21D7C0A97005EF003 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1283A0C11D7C0A97005EF003 /* SafariServices.framework */; };
+		1283A0C71D7C1535005EF003 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1283A0C51D7C1535005EF003 /* Localizable.strings */; };
+		128D45A61D76CB360027EEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45A51D76CB360027EEE6 /* AppDelegate.swift */; };
+		128D45AE1D76CB360027EEE6 /* InstaPrayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 128D45AC1D76CB360027EEE6 /* InstaPrayer.xcdatamodeld */; };
+		128D45B01D76CB360027EEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128D45AF1D76CB360027EEE6 /* Assets.xcassets */; };
+		128D45BE1D76CB360027EEE6 /* InstaPrayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45BD1D76CB360027EEE6 /* InstaPrayerTests.swift */; };
+		128D45C91D76CB360027EEE6 /* InstaPrayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45C81D76CB360027EEE6 /* InstaPrayerUITests.swift */; };
+		128D45D71D76CB520027EEE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128D45D61D76CB520027EEE6 /* LaunchScreen.xib */; };
+		128D45F21D76CB650027EEE6 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45D91D76CB650027EEE6 /* AppUtils.swift */; };
+		128D45F31D76CB650027EEE6 /* PaylotBoldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45DB1D76CB650027EEE6 /* PaylotBoldLabel.swift */; };
+		128D45F41D76CB650027EEE6 /* PaylotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45DC1D76CB650027EEE6 /* PaylotButton.swift */; };
+		128D45F51D76CB650027EEE6 /* PaylotColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45DD1D76CB650027EEE6 /* PaylotColors.swift */; };
+		128D45F61D76CB650027EEE6 /* PaylotLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45DE1D76CB650027EEE6 /* PaylotLabel.swift */; };
+		128D45F71D76CB650027EEE6 /* PaylotTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45DF1D76CB650027EEE6 /* PaylotTextField.swift */; };
+		128D45F81D76CB650027EEE6 /* UIViewControllerExtionstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45E21D76CB650027EEE6 /* UIViewControllerExtionstion.swift */; };
+		128D45F91D76CB650027EEE6 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 128D45E41D76CB650027EEE6 /* XMLDictionary.m */; };
+		128D45FA1D76CB650027EEE6 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45E71D76CB650027EEE6 /* RequestBuilder.swift */; };
+		128D45FB1D76CB650027EEE6 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45E81D76CB650027EEE6 /* WebServices.swift */; };
+		128D45FE1D76CB650027EEE6 /* MainVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128D45EE1D76CB650027EEE6 /* MainVc.xib */; };
+		128D45FF1D76CB650027EEE6 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D45F01D76CB650027EEE6 /* SplashVC.swift */; };
+		128D46001D76CB650027EEE6 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128D45F11D76CB650027EEE6 /* SplashVC.xib */; };
+		128D460A1D76CE690027EEE6 /* InstaPrayerBaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128D46091D76CE690027EEE6 /* InstaPrayerBaseVc.swift */; };
+		128D460C1D76CF280027EEE6 /* navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 128D460B1D76CF280027EEE6 /* navigation.png */; };
+		1297286B1E65AF4100ED1F47 /* instaprayer-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1297286A1E65AF4100ED1F47 /* instaprayer-splash.png */; };
+		12A284B41D817DA700343644 /* bt.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2848C1D817DA700343644 /* bt.png */; };
+		12A284B61D817DA700343644 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2848E1D817DA700343644 /* camera.png */; };
+		12A284B71D817DA700343644 /* camera_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2848F1D817DA700343644 /* camera_on.png */; };
+		12A284B81D817DA700343644 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284901D817DA700343644 /* checkbox.png */; };
+		12A284B91D817DA700343644 /* checkbox_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284911D817DA700343644 /* checkbox_on.png */; };
+		12A284BA1D817DA700343644 /* edit_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284921D817DA700343644 /* edit_icon.png */; };
+		12A284BB1D817DA700343644 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284931D817DA700343644 /* house.png */; };
+		12A284BC1D817DA700343644 /* house_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284941D817DA700343644 /* house_on.png */; };
+		12A284BD1D817DA700343644 /* hp_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284951D817DA700343644 /* hp_photo.png */; };
+		12A284BE1D817DA700343644 /* photo_thank.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284961D817DA700343644 /* photo_thank.png */; };
+		12A284BF1D817DA700343644 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284971D817DA700343644 /* radio.png */; };
+		12A284C01D817DA700343644 /* radio_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284981D817DA700343644 /* radio_on.png */; };
+		12A284C11D817DA700343644 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A284991D817DA700343644 /* setting.png */; };
+		12A284C21D817DA700343644 /* setting_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849A1D817DA700343644 /* setting_on.png */; };
+		12A284C31D817DA700343644 /* share_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849B1D817DA700343644 /* share_icon.png */; };
+		12A284C41D817DA700343644 /* start_here.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849C1D817DA700343644 /* start_here.png */; };
+		12A284C51D817DA700343644 /* v_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849D1D817DA700343644 /* v_gray.png */; };
+		12A284C61D817DA700343644 /* v_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849E1D817DA700343644 /* v_green.png */; };
+		12A284C71D817DA700343644 /* v_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A2849F1D817DA700343644 /* v_red.png */; };
+		12A284C91D81BD5B00343644 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A284C81D81BD5B00343644 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		12A284CB1D81BD9900343644 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A284CA1D81BD9900343644 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		12A284DC1D8E8ACD00343644 /* PricingRespone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A284DB1D8E8ACD00343644 /* PricingRespone.swift */; };
+		12B456A91E49BFC000724217 /* bt_paypal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B456A51E49BFC000724217 /* bt_paypal@2x.png */; };
+		12B456AA1E49BFC000724217 /* bt_paypal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B456A61E49BFC000724217 /* bt_paypal@3x.png */; };
+		12B456AB1E49BFC000724217 /* bt_pay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B456A71E49BFC000724217 /* bt_pay@2x.png */; };
+		12B456AC1E49BFC000724217 /* bt_pay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B456A81E49BFC000724217 /* bt_pay@3x.png */; };
+		37182475F47A2C346AF14D29 /* libPods-InstaPrayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3150243E89370A856FB52909 /* libPods-InstaPrayerUITests.a */; };
+		EFBA1FDD8CAEB6F80A2084C9 /* libPods-InstaPrayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D92E94ACCB620BF99816EE /* libPods-InstaPrayerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128D45BA1D76CB360027EEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128D459A1D76CB360027EEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128D45A11D76CB360027EEE6;
+			remoteInfo = InstaPrayer;
+		};
+		128D45C51D76CB360027EEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128D459A1D76CB360027EEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128D45A11D76CB360027EEE6;
+			remoteInfo = InstaPrayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121194651D76FF8400DA62F6 /* UserDetailsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsVc.swift; sourceTree = "<group>"; };
+		121194661D76FF8400DA62F6 /* UserDetailsVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsVc.xib; sourceTree = "<group>"; };
+		1247545E1DE359C600FA5870 /* MainVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		125F01F21D7D6BD300EA1CAF /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		125F01F31D7D6BD300EA1CAF /* SettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		127386471D78163500F70FFE /* ChoosePlanVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePlanVc.swift; sourceTree = "<group>"; };
+		127386481D78163500F70FFE /* ChoosePlanVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoosePlanVc.xib; sourceTree = "<group>"; };
+		1273864C1D781F2B00F70FFE /* ThankYouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
+		1273864D1D781F2B00F70FFE /* ThankYouVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThankYouVC.xib; sourceTree = "<group>"; };
+		127386571D7821B400F70FFE /* ContactUsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactUsVc.swift; path = InstaPrayer/ViewControllers/ContactUsVC/ContactUsVc.swift; sourceTree = SOURCE_ROOT; };
+		127386581D7821B400F70FFE /* ContactUsVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContactUsVc.xib; path = InstaPrayer/ViewControllers/ContactUsVC/ContactUsVc.xib; sourceTree = SOURCE_ROOT; };
+		1273865B1D78249A00F70FFE /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		1273865C1D78249A00F70FFE /* TermsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsVC.xib; sourceTree = "<group>"; };
+		1273865F1D7827F600F70FFE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		128069021E87D4FC0000B4D4 /* DetailesVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailesVc.swift; sourceTree = "<group>"; };
+		128069031E87D4FC0000B4D4 /* DetailesVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailesVc.xib; sourceTree = "<group>"; };
+		128069061E87D5AB0000B4D4 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		128069071E87D5AB0000B4D4 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1280690A1E8803D90000B4D4 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		1280690B1E8803D90000B4D4 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		1280690E1E880F480000B4D4 /* checkboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkboxCell.swift; sourceTree = "<group>"; };
+		1280690F1E880F480000B4D4 /* checkboxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checkboxCell.xib; sourceTree = "<group>"; };
+		1283A0AE1D7852A8005EF003 /* PrayerObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerObj.swift; sourceTree = "<group>"; };
+		1283A0B11D785713005EF003 /* BaseRespone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRespone.swift; sourceTree = "<group>"; };
+		1283A0B31D7C0A58005EF003 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1283A0B51D7C0A61005EF003 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1283A0B71D7C0A69005EF003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1283A0B91D7C0A72005EF003 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1283A0BB1D7C0A7A005EF003 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1283A0BD1D7C0A85005EF003 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1283A0BF1D7C0A8F005EF003 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1283A0C11D7C0A97005EF003 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		1283A0C61D7C1535005EF003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1283A0C91D7C15BC005EF003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		128D45A21D76CB360027EEE6 /* InstaPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D45A51D76CB360027EEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		128D45AD1D76CB360027EEE6 /* InstaPrayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaPrayer.xcdatamodel; sourceTree = "<group>"; };
+		128D45AF1D76CB360027EEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128D45B41D76CB360027EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128D45B91D76CB360027EEE6 /* InstaPrayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPrayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D45BD1D76CB360027EEE6 /* InstaPrayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPrayerTests.swift; sourceTree = "<group>"; };
+		128D45BF1D76CB360027EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128D45C41D76CB360027EEE6 /* InstaPrayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPrayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128D45C81D76CB360027EEE6 /* InstaPrayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaPrayerUITests.swift; sourceTree = "<group>"; };
+		128D45CA1D76CB360027EEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128D45D61D76CB520027EEE6 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		128D45D91D76CB650027EEE6 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		128D45DB1D76CB650027EEE6 /* PaylotBoldLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaylotBoldLabel.swift; sourceTree = "<group>"; };
+		128D45DC1D76CB650027EEE6 /* PaylotButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaylotButton.swift; sourceTree = "<group>"; };
+		128D45DD1D76CB650027EEE6 /* PaylotColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaylotColors.swift; sourceTree = "<group>"; };
+		128D45DE1D76CB650027EEE6 /* PaylotLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaylotLabel.swift; sourceTree = "<group>"; };
+		128D45DF1D76CB650027EEE6 /* PaylotTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaylotTextField.swift; sourceTree = "<group>"; };
+		128D45E11D76CB650027EEE6 /* prayerPilot-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "prayerPilot-Bridging-Header.h"; sourceTree = "<group>"; };
+		128D45E21D76CB650027EEE6 /* UIViewControllerExtionstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtionstion.swift; sourceTree = "<group>"; };
+		128D45E31D76CB650027EEE6 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		128D45E41D76CB650027EEE6 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		128D45E71D76CB650027EEE6 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		128D45E81D76CB650027EEE6 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		128D45EE1D76CB650027EEE6 /* MainVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVc.xib; sourceTree = "<group>"; };
+		128D45F01D76CB650027EEE6 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		128D45F11D76CB650027EEE6 /* SplashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
+		128D46011D76CC560027EEE6 /* InstaPrayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaPrayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		128D46091D76CE690027EEE6 /* InstaPrayerBaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaPrayerBaseVc.swift; sourceTree = "<group>"; };
+		128D460B1D76CF280027EEE6 /* navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigation.png; sourceTree = "<group>"; };
+		1297286A1E65AF4100ED1F47 /* instaprayer-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instaprayer-splash.png"; sourceTree = "<group>"; };
+		12A2848C1D817DA700343644 /* bt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt.png; sourceTree = "<group>"; };
+		12A2848E1D817DA700343644 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		12A2848F1D817DA700343644 /* camera_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_on.png; sourceTree = "<group>"; };
+		12A284901D817DA700343644 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		12A284911D817DA700343644 /* checkbox_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_on.png; sourceTree = "<group>"; };
+		12A284921D817DA700343644 /* edit_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_icon.png; sourceTree = "<group>"; };
+		12A284931D817DA700343644 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		12A284941D817DA700343644 /* house_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_on.png; sourceTree = "<group>"; };
+		12A284951D817DA700343644 /* hp_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp_photo.png; sourceTree = "<group>"; };
+		12A284961D817DA700343644 /* photo_thank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_thank.png; sourceTree = "<group>"; };
+		12A284971D817DA700343644 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		12A284981D817DA700343644 /* radio_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_on.png; sourceTree = "<group>"; };
+		12A284991D817DA700343644 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		12A2849A1D817DA700343644 /* setting_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_on.png; sourceTree = "<group>"; };
+		12A2849B1D817DA700343644 /* share_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_icon.png; sourceTree = "<group>"; };
+		12A2849C1D817DA700343644 /* start_here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_here.png; sourceTree = "<group>"; };
+		12A2849D1D817DA700343644 /* v_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = v_gray.png; sourceTree = "<group>"; };
+		12A2849E1D817DA700343644 /* v_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = v_green.png; sourceTree = "<group>"; };
+		12A2849F1D817DA700343644 /* v_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = v_red.png; sourceTree = "<group>"; };
+		12A284C81D81BD5B00343644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12A284CA1D81BD9900343644 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		12A284DB1D8E8ACD00343644 /* PricingRespone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricingRespone.swift; sourceTree = "<group>"; };
+		12B456A51E49BFC000724217 /* bt_paypal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_paypal@2x.png"; sourceTree = "<group>"; };
+		12B456A61E49BFC000724217 /* bt_paypal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_paypal@3x.png"; sourceTree = "<group>"; };
+		12B456A71E49BFC000724217 /* bt_pay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_pay@2x.png"; sourceTree = "<group>"; };
+		12B456A81E49BFC000724217 /* bt_pay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_pay@3x.png"; sourceTree = "<group>"; };
+		12FD9E1E1E48A7A800A17543 /* InstaPrayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstaPrayer.entitlements; sourceTree = "<group>"; };
+		27D92E94ACCB620BF99816EE /* libPods-InstaPrayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaPrayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F02B3B87234A3ABE7602FB6 /* Pods-InstaPrayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayer/Pods-InstaPrayer.debug.xcconfig"; sourceTree = "<group>"; };
+		3150243E89370A856FB52909 /* libPods-InstaPrayerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaPrayerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371E9B538D315849531E5C8D /* Pods-InstaPrayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayer/Pods-InstaPrayer.release.xcconfig"; sourceTree = "<group>"; };
+		421B768F27A40428A9C3FA0F /* Pods-InstaPrayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayerTests/Pods-InstaPrayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6AF6F7A77B589397FF4C958B /* Pods-InstaPrayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayerTests/Pods-InstaPrayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A27636A9E769F0F748BBEC1A /* libPods-InstaPrayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaPrayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4A8616D88BDA31C2717256 /* Pods-InstaPrayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayerUITests/Pods-InstaPrayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0B008F79E9CB1EFBCA32C1C /* Pods-InstaPrayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaPrayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaPrayerUITests/Pods-InstaPrayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128D459F1D76CB360027EEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A284CB1D81BD9900343644 /* CoreFoundation.framework in Frameworks */,
+				12A284C91D81BD5B00343644 /* Foundation.framework in Frameworks */,
+				1283A0C21D7C0A97005EF003 /* SafariServices.framework in Frameworks */,
+				1283A0C01D7C0A8F005EF003 /* SystemConfiguration.framework in Frameworks */,
+				1283A0BE1D7C0A85005EF003 /* MobileCoreServices.framework in Frameworks */,
+				1283A0BC1D7C0A7A005EF003 /* CoreMedia.framework in Frameworks */,
+				1283A0BA1D7C0A72005EF003 /* CoreLocation.framework in Frameworks */,
+				1283A0B81D7C0A69005EF003 /* AVFoundation.framework in Frameworks */,
+				1283A0B61D7C0A61005EF003 /* AudioToolbox.framework in Frameworks */,
+				1283A0B41D7C0A58005EF003 /* Accelerate.framework in Frameworks */,
+				127386601D7827F600F70FFE /* MessageUI.framework in Frameworks */,
+				0C4C107C74C41C5DF7C0D239 /* libPods-InstaPrayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45B61D76CB360027EEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA1FDD8CAEB6F80A2084C9 /* libPods-InstaPrayerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45C11D76CB360027EEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37182475F47A2C346AF14D29 /* libPods-InstaPrayerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121194641D76FF6800DA62F6 /* UserDetailsVc */ = {
+			isa = PBXGroup;
+			children = (
+				121194651D76FF8400DA62F6 /* UserDetailsVc.swift */,
+				121194661D76FF8400DA62F6 /* UserDetailsVc.xib */,
+				128069021E87D4FC0000B4D4 /* DetailesVc.swift */,
+				128069031E87D4FC0000B4D4 /* DetailesVc.xib */,
+				128069061E87D5AB0000B4D4 /* TableViewCell.swift */,
+				128069071E87D5AB0000B4D4 /* TableViewCell.xib */,
+				1280690A1E8803D90000B4D4 /* ImageCell.swift */,
+				1280690B1E8803D90000B4D4 /* ImageCell.xib */,
+				1280690E1E880F480000B4D4 /* checkboxCell.swift */,
+				1280690F1E880F480000B4D4 /* checkboxCell.xib */,
+			);
+			path = UserDetailsVc;
+			sourceTree = "<group>";
+		};
+		125F01F11D7D6BB600EA1CAF /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				125F01F21D7D6BD300EA1CAF /* SettingVC.swift */,
+				125F01F31D7D6BD300EA1CAF /* SettingVC.xib */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		127386461D78161A00F70FFE /* ChoosePlanVc */ = {
+			isa = PBXGroup;
+			children = (
+				127386471D78163500F70FFE /* ChoosePlanVc.swift */,
+				127386481D78163500F70FFE /* ChoosePlanVc.xib */,
+			);
+			path = ChoosePlanVc;
+			sourceTree = "<group>";
+		};
+		1273864B1D781F1200F70FFE /* ThankYouVc */ = {
+			isa = PBXGroup;
+			children = (
+				1273864C1D781F2B00F70FFE /* ThankYouVC.swift */,
+				1273864D1D781F2B00F70FFE /* ThankYouVC.xib */,
+			);
+			path = ThankYouVc;
+			sourceTree = "<group>";
+		};
+		127386501D78213900F70FFE /* TermsVC */ = {
+			isa = PBXGroup;
+			children = (
+				1273865B1D78249A00F70FFE /* TermsVC.swift */,
+				1273865C1D78249A00F70FFE /* TermsVC.xib */,
+			);
+			path = TermsVC;
+			sourceTree = "<group>";
+		};
+		127386561D78218300F70FFE /* ContactUsVC */ = {
+			isa = PBXGroup;
+			children = (
+				127386571D7821B400F70FFE /* ContactUsVc.swift */,
+				127386581D7821B400F70FFE /* ContactUsVc.xib */,
+			);
+			path = ContactUsVC;
+			sourceTree = "<group>";
+		};
+		128D45991D76CB360027EEE6 = {
+			isa = PBXGroup;
+			children = (
+				128D45A41D76CB360027EEE6 /* InstaPrayer */,
+				128D45BC1D76CB360027EEE6 /* InstaPrayerTests */,
+				128D45C71D76CB360027EEE6 /* InstaPrayerUITests */,
+				128D45A31D76CB360027EEE6 /* Products */,
+				E18B2A7C8A717CE1073001B3 /* Frameworks */,
+				5F2BF1C0F0ECB50ED9814C2B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		128D45A31D76CB360027EEE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128D45A21D76CB360027EEE6 /* InstaPrayer.app */,
+				128D45B91D76CB360027EEE6 /* InstaPrayerTests.xctest */,
+				128D45C41D76CB360027EEE6 /* InstaPrayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128D45A41D76CB360027EEE6 /* InstaPrayer */ = {
+			isa = PBXGroup;
+			children = (
+				12FD9E1E1E48A7A800A17543 /* InstaPrayer.entitlements */,
+				128D45A51D76CB360027EEE6 /* AppDelegate.swift */,
+				128D46011D76CC560027EEE6 /* InstaPrayer-Bridging-Header.h */,
+				128D45D61D76CB520027EEE6 /* LaunchScreen.xib */,
+				12A284751D817DA700343644 /* Images */,
+				128D46021D76CDD40027EEE6 /* Strings */,
+				128D45D81D76CB650027EEE6 /* AppUtiles */,
+				128D45DA1D76CB650027EEE6 /* Categories */,
+				128D45E01D76CB650027EEE6 /* Extentions */,
+				128D45E51D76CB650027EEE6 /* Model */,
+				128D45E91D76CB650027EEE6 /* ViewControllers */,
+				128D45AF1D76CB360027EEE6 /* Assets.xcassets */,
+				128D45B41D76CB360027EEE6 /* Info.plist */,
+				128D45AC1D76CB360027EEE6 /* InstaPrayer.xcdatamodeld */,
+			);
+			path = InstaPrayer;
+			sourceTree = "<group>";
+		};
+		128D45BC1D76CB360027EEE6 /* InstaPrayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				128D45BD1D76CB360027EEE6 /* InstaPrayerTests.swift */,
+				128D45BF1D76CB360027EEE6 /* Info.plist */,
+			);
+			path = InstaPrayerTests;
+			sourceTree = "<group>";
+		};
+		128D45C71D76CB360027EEE6 /* InstaPrayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128D45C81D76CB360027EEE6 /* InstaPrayerUITests.swift */,
+				128D45CA1D76CB360027EEE6 /* Info.plist */,
+			);
+			path = InstaPrayerUITests;
+			sourceTree = "<group>";
+		};
+		128D45D81D76CB650027EEE6 /* AppUtiles */ = {
+			isa = PBXGroup;
+			children = (
+				128D45D91D76CB650027EEE6 /* AppUtils.swift */,
+			);
+			path = AppUtiles;
+			sourceTree = "<group>";
+		};
+		128D45DA1D76CB650027EEE6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				128D45DB1D76CB650027EEE6 /* PaylotBoldLabel.swift */,
+				128D45DC1D76CB650027EEE6 /* PaylotButton.swift */,
+				128D45DD1D76CB650027EEE6 /* PaylotColors.swift */,
+				128D45DE1D76CB650027EEE6 /* PaylotLabel.swift */,
+				128D45DF1D76CB650027EEE6 /* PaylotTextField.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		128D45E01D76CB650027EEE6 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				128D45E11D76CB650027EEE6 /* prayerPilot-Bridging-Header.h */,
+				128D45E21D76CB650027EEE6 /* UIViewControllerExtionstion.swift */,
+				128D45E31D76CB650027EEE6 /* XMLDictionary.h */,
+				128D45E41D76CB650027EEE6 /* XMLDictionary.m */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		128D45E51D76CB650027EEE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				128D45E61D76CB650027EEE6 /* WebServices */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		128D45E61D76CB650027EEE6 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				128D45E71D76CB650027EEE6 /* RequestBuilder.swift */,
+				128D45E81D76CB650027EEE6 /* WebServices.swift */,
+				1283A0AE1D7852A8005EF003 /* PrayerObj.swift */,
+				1283A0B11D785713005EF003 /* BaseRespone.swift */,
+				12A284DB1D8E8ACD00343644 /* PricingRespone.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		128D45E91D76CB650027EEE6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				125F01F11D7D6BB600EA1CAF /* SettingVC */,
+				127386561D78218300F70FFE /* ContactUsVC */,
+				127386501D78213900F70FFE /* TermsVC */,
+				1273864B1D781F1200F70FFE /* ThankYouVc */,
+				127386461D78161A00F70FFE /* ChoosePlanVc */,
+				121194641D76FF6800DA62F6 /* UserDetailsVc */,
+				128D45EA1D76CB650027EEE6 /* BaseVc */,
+				128D45EC1D76CB650027EEE6 /* MainVc */,
+				128D45EF1D76CB650027EEE6 /* SplashVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		128D45EA1D76CB650027EEE6 /* BaseVc */ = {
+			isa = PBXGroup;
+			children = (
+				128D46091D76CE690027EEE6 /* InstaPrayerBaseVc.swift */,
+			);
+			path = BaseVc;
+			sourceTree = "<group>";
+		};
+		128D45EC1D76CB650027EEE6 /* MainVc */ = {
+			isa = PBXGroup;
+			children = (
+				1247545E1DE359C600FA5870 /* MainVc.swift */,
+				128D45EE1D76CB650027EEE6 /* MainVc.xib */,
+			);
+			path = MainVc;
+			sourceTree = "<group>";
+		};
+		128D45EF1D76CB650027EEE6 /* SplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				128D45F01D76CB650027EEE6 /* SplashVC.swift */,
+				128D45F11D76CB650027EEE6 /* SplashVC.xib */,
+			);
+			path = SplashVC;
+			sourceTree = "<group>";
+		};
+		128D46021D76CDD40027EEE6 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				1283A0C51D7C1535005EF003 /* Localizable.strings */,
+				128D460B1D76CF280027EEE6 /* navigation.png */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		12A284751D817DA700343644 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				12A2848B1D817DA700343644 /* 3x */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		12A2848B1D817DA700343644 /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				1297286A1E65AF4100ED1F47 /* instaprayer-splash.png */,
+				12B456A51E49BFC000724217 /* bt_paypal@2x.png */,
+				12B456A61E49BFC000724217 /* bt_paypal@3x.png */,
+				12B456A71E49BFC000724217 /* bt_pay@2x.png */,
+				12B456A81E49BFC000724217 /* bt_pay@3x.png */,
+				12A2848C1D817DA700343644 /* bt.png */,
+				12A2848E1D817DA700343644 /* camera.png */,
+				12A2848F1D817DA700343644 /* camera_on.png */,
+				12A284901D817DA700343644 /* checkbox.png */,
+				12A284911D817DA700343644 /* checkbox_on.png */,
+				12A284921D817DA700343644 /* edit_icon.png */,
+				12A284931D817DA700343644 /* house.png */,
+				12A284941D817DA700343644 /* house_on.png */,
+				12A284951D817DA700343644 /* hp_photo.png */,
+				12A284961D817DA700343644 /* photo_thank.png */,
+				12A284971D817DA700343644 /* radio.png */,
+				12A284981D817DA700343644 /* radio_on.png */,
+				12A284991D817DA700343644 /* setting.png */,
+				12A2849A1D817DA700343644 /* setting_on.png */,
+				12A2849B1D817DA700343644 /* share_icon.png */,
+				12A2849C1D817DA700343644 /* start_here.png */,
+				12A2849D1D817DA700343644 /* v_gray.png */,
+				12A2849E1D817DA700343644 /* v_green.png */,
+				12A2849F1D817DA700343644 /* v_red.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		5F2BF1C0F0ECB50ED9814C2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F02B3B87234A3ABE7602FB6 /* Pods-InstaPrayer.debug.xcconfig */,
+				371E9B538D315849531E5C8D /* Pods-InstaPrayer.release.xcconfig */,
+				6AF6F7A77B589397FF4C958B /* Pods-InstaPrayerTests.debug.xcconfig */,
+				421B768F27A40428A9C3FA0F /* Pods-InstaPrayerTests.release.xcconfig */,
+				C0B008F79E9CB1EFBCA32C1C /* Pods-InstaPrayerUITests.debug.xcconfig */,
+				BF4A8616D88BDA31C2717256 /* Pods-InstaPrayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E18B2A7C8A717CE1073001B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A284CA1D81BD9900343644 /* CoreFoundation.framework */,
+				12A284C81D81BD5B00343644 /* Foundation.framework */,
+				1283A0C11D7C0A97005EF003 /* SafariServices.framework */,
+				1283A0BF1D7C0A8F005EF003 /* SystemConfiguration.framework */,
+				1283A0BD1D7C0A85005EF003 /* MobileCoreServices.framework */,
+				1283A0BB1D7C0A7A005EF003 /* CoreMedia.framework */,
+				1283A0B91D7C0A72005EF003 /* CoreLocation.framework */,
+				1283A0B71D7C0A69005EF003 /* AVFoundation.framework */,
+				1283A0B51D7C0A61005EF003 /* AudioToolbox.framework */,
+				1283A0B31D7C0A58005EF003 /* Accelerate.framework */,
+				1273865F1D7827F600F70FFE /* MessageUI.framework */,
+				A27636A9E769F0F748BBEC1A /* libPods-InstaPrayer.a */,
+				27D92E94ACCB620BF99816EE /* libPods-InstaPrayerTests.a */,
+				3150243E89370A856FB52909 /* libPods-InstaPrayerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128D45A11D76CB360027EEE6 /* InstaPrayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128D45CD1D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayer" */;
+			buildPhases = (
+				F3A3AD4B9D68F39D35509529 /* [CP] Check Pods Manifest.lock */,
+				128D459E1D76CB360027EEE6 /* Sources */,
+				128D459F1D76CB360027EEE6 /* Frameworks */,
+				128D45A01D76CB360027EEE6 /* Resources */,
+				1C94181103E129F03DFB28FE /* [CP] Embed Pods Frameworks */,
+				2332903C13A7EB89A05FC856 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPrayer;
+			productName = InstaPrayer;
+			productReference = 128D45A21D76CB360027EEE6 /* InstaPrayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128D45B81D76CB360027EEE6 /* InstaPrayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128D45D01D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayerTests" */;
+			buildPhases = (
+				8D655AD46B173C4F01684EDE /* [CP] Check Pods Manifest.lock */,
+				128D45B51D76CB360027EEE6 /* Sources */,
+				128D45B61D76CB360027EEE6 /* Frameworks */,
+				128D45B71D76CB360027EEE6 /* Resources */,
+				08CE0C1DEA3192FB8FC65B67 /* [CP] Embed Pods Frameworks */,
+				CD3247B754833E6314465BAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128D45BB1D76CB360027EEE6 /* PBXTargetDependency */,
+			);
+			name = InstaPrayerTests;
+			productName = InstaPrayerTests;
+			productReference = 128D45B91D76CB360027EEE6 /* InstaPrayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128D45C31D76CB360027EEE6 /* InstaPrayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128D45D31D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayerUITests" */;
+			buildPhases = (
+				04A42AD76F7962BAE0EC6A12 /* [CP] Check Pods Manifest.lock */,
+				128D45C01D76CB360027EEE6 /* Sources */,
+				128D45C11D76CB360027EEE6 /* Frameworks */,
+				128D45C21D76CB360027EEE6 /* Resources */,
+				EECD2635A15D6DA815E04A20 /* [CP] Embed Pods Frameworks */,
+				FC6DAD6DC2E28C2F92862045 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128D45C61D76CB360027EEE6 /* PBXTargetDependency */,
+			);
+			name = InstaPrayerUITests;
+			productName = InstaPrayerUITests;
+			productReference = 128D45C41D76CB360027EEE6 /* InstaPrayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128D459A1D76CB360027EEE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aviram Shakiv";
+				TargetAttributes = {
+					128D45A11D76CB360027EEE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P9C5CE957T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					128D45B81D76CB360027EEE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 128D45A11D76CB360027EEE6;
+					};
+					128D45C31D76CB360027EEE6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 128D45A11D76CB360027EEE6;
+					};
+				};
+			};
+			buildConfigurationList = 128D459D1D76CB360027EEE6 /* Build configuration list for PBXProject "InstaPrayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 128D45991D76CB360027EEE6;
+			productRefGroup = 128D45A31D76CB360027EEE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128D45A11D76CB360027EEE6 /* InstaPrayer */,
+				128D45B81D76CB360027EEE6 /* InstaPrayerTests */,
+				128D45C31D76CB360027EEE6 /* InstaPrayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128D45A01D76CB360027EEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1280690D1E8803D90000B4D4 /* ImageCell.xib in Resources */,
+				12A284B91D817DA700343644 /* checkbox_on.png in Resources */,
+				12A284BD1D817DA700343644 /* hp_photo.png in Resources */,
+				12A284B81D817DA700343644 /* checkbox.png in Resources */,
+				12A284C71D817DA700343644 /* v_red.png in Resources */,
+				125F01F51D7D6BD300EA1CAF /* SettingVC.xib in Resources */,
+				12A284C41D817DA700343644 /* start_here.png in Resources */,
+				121194681D76FF8400DA62F6 /* UserDetailsVc.xib in Resources */,
+				12A284C51D817DA700343644 /* v_gray.png in Resources */,
+				1283A0C71D7C1535005EF003 /* Localizable.strings in Resources */,
+				12A284C61D817DA700343644 /* v_green.png in Resources */,
+				128D45D71D76CB520027EEE6 /* LaunchScreen.xib in Resources */,
+				12A284C31D817DA700343644 /* share_icon.png in Resources */,
+				1273865A1D7821B400F70FFE /* ContactUsVc.xib in Resources */,
+				12A284BB1D817DA700343644 /* house.png in Resources */,
+				12A284BC1D817DA700343644 /* house_on.png in Resources */,
+				128069111E880F480000B4D4 /* checkboxCell.xib in Resources */,
+				12A284BF1D817DA700343644 /* radio.png in Resources */,
+				12A284B71D817DA700343644 /* camera_on.png in Resources */,
+				128D460C1D76CF280027EEE6 /* navigation.png in Resources */,
+				12A284C11D817DA700343644 /* setting.png in Resources */,
+				12B456AA1E49BFC000724217 /* bt_paypal@3x.png in Resources */,
+				12A284B61D817DA700343644 /* camera.png in Resources */,
+				12B456A91E49BFC000724217 /* bt_paypal@2x.png in Resources */,
+				12A284BE1D817DA700343644 /* photo_thank.png in Resources */,
+				1273864A1D78163500F70FFE /* ChoosePlanVc.xib in Resources */,
+				128D46001D76CB650027EEE6 /* SplashVC.xib in Resources */,
+				128D45FE1D76CB650027EEE6 /* MainVc.xib in Resources */,
+				128069051E87D4FC0000B4D4 /* DetailesVc.xib in Resources */,
+				12A284B41D817DA700343644 /* bt.png in Resources */,
+				1297286B1E65AF4100ED1F47 /* instaprayer-splash.png in Resources */,
+				128069091E87D5AB0000B4D4 /* TableViewCell.xib in Resources */,
+				12B456AC1E49BFC000724217 /* bt_pay@3x.png in Resources */,
+				1273865E1D78249A00F70FFE /* TermsVC.xib in Resources */,
+				1273864F1D781F2B00F70FFE /* ThankYouVC.xib in Resources */,
+				12A284C21D817DA700343644 /* setting_on.png in Resources */,
+				128D45B01D76CB360027EEE6 /* Assets.xcassets in Resources */,
+				12B456AB1E49BFC000724217 /* bt_pay@2x.png in Resources */,
+				12A284BA1D817DA700343644 /* edit_icon.png in Resources */,
+				12A284C01D817DA700343644 /* radio_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45B71D76CB360027EEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45C21D76CB360027EEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A42AD76F7962BAE0EC6A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		08CE0C1DEA3192FB8FC65B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayerTests/Pods-InstaPrayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C94181103E129F03DFB28FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayer/Pods-InstaPrayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2332903C13A7EB89A05FC856 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayer/Pods-InstaPrayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D655AD46B173C4F01684EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3247B754833E6314465BAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayerTests/Pods-InstaPrayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECD2635A15D6DA815E04A20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayerUITests/Pods-InstaPrayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A3AD4B9D68F39D35509529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6DAD6DC2E28C2F92862045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaPrayerUITests/Pods-InstaPrayerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128D459E1D76CB360027EEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128D45F41D76CB650027EEE6 /* PaylotButton.swift in Sources */,
+				1273864E1D781F2B00F70FFE /* ThankYouVC.swift in Sources */,
+				128D45F21D76CB650027EEE6 /* AppUtils.swift in Sources */,
+				128D45FB1D76CB650027EEE6 /* WebServices.swift in Sources */,
+				127386591D7821B400F70FFE /* ContactUsVc.swift in Sources */,
+				128069041E87D4FC0000B4D4 /* DetailesVc.swift in Sources */,
+				128D45F71D76CB650027EEE6 /* PaylotTextField.swift in Sources */,
+				127386491D78163500F70FFE /* ChoosePlanVc.swift in Sources */,
+				128D45AE1D76CB360027EEE6 /* InstaPrayer.xcdatamodeld in Sources */,
+				1273865D1D78249A00F70FFE /* TermsVC.swift in Sources */,
+				128D45F81D76CB650027EEE6 /* UIViewControllerExtionstion.swift in Sources */,
+				1280690C1E8803D90000B4D4 /* ImageCell.swift in Sources */,
+				12A284DC1D8E8ACD00343644 /* PricingRespone.swift in Sources */,
+				128D45F91D76CB650027EEE6 /* XMLDictionary.m in Sources */,
+				128069081E87D5AB0000B4D4 /* TableViewCell.swift in Sources */,
+				128D45F61D76CB650027EEE6 /* PaylotLabel.swift in Sources */,
+				1247545F1DE359C600FA5870 /* MainVc.swift in Sources */,
+				128D45FA1D76CB650027EEE6 /* RequestBuilder.swift in Sources */,
+				128D45FF1D76CB650027EEE6 /* SplashVC.swift in Sources */,
+				128D45F31D76CB650027EEE6 /* PaylotBoldLabel.swift in Sources */,
+				128069101E880F480000B4D4 /* checkboxCell.swift in Sources */,
+				125F01F41D7D6BD300EA1CAF /* SettingVC.swift in Sources */,
+				121194671D76FF8400DA62F6 /* UserDetailsVc.swift in Sources */,
+				1283A0B21D785713005EF003 /* BaseRespone.swift in Sources */,
+				128D460A1D76CE690027EEE6 /* InstaPrayerBaseVc.swift in Sources */,
+				128D45F51D76CB650027EEE6 /* PaylotColors.swift in Sources */,
+				128D45A61D76CB360027EEE6 /* AppDelegate.swift in Sources */,
+				1283A0AF1D7852A8005EF003 /* PrayerObj.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45B51D76CB360027EEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128D45BE1D76CB360027EEE6 /* InstaPrayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128D45C01D76CB360027EEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128D45C91D76CB360027EEE6 /* InstaPrayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128D45BB1D76CB360027EEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128D45A11D76CB360027EEE6 /* InstaPrayer */;
+			targetProxy = 128D45BA1D76CB360027EEE6 /* PBXContainerItemProxy */;
+		};
+		128D45C61D76CB360027EEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128D45A11D76CB360027EEE6 /* InstaPrayer */;
+			targetProxy = 128D45C51D76CB360027EEE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1283A0C51D7C1535005EF003 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1283A0C61D7C1535005EF003 /* Base */,
+				1283A0C91D7C15BC005EF003 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128D45CB1D76CB360027EEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128D45CC1D76CB360027EEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128D45CE1D76CB360027EEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F02B3B87234A3ABE7602FB6 /* Pods-InstaPrayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InstaPrayer/InstaPrayer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P9C5CE957T;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = InstaPrayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Aviram/Documents/EWGit/InstaPrayer/InstaPrayer/InstaPrayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		128D45CF1D76CB360027EEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371E9B538D315849531E5C8D /* Pods-InstaPrayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InstaPrayer/InstaPrayer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Western Wall Foundation Ltd, The (P9C5CE957T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P9C5CE957T;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = InstaPrayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Aviram/Documents/EWGit/InstaPrayer/InstaPrayer/InstaPrayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		128D45D11D76CB360027EEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF6F7A77B589397FF4C958B /* Pods-InstaPrayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaPrayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPrayer.app/InstaPrayer";
+			};
+			name = Debug;
+		};
+		128D45D21D76CB360027EEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421B768F27A40428A9C3FA0F /* Pods-InstaPrayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaPrayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPrayer.app/InstaPrayer";
+			};
+			name = Release;
+		};
+		128D45D41D76CB360027EEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B008F79E9CB1EFBCA32C1C /* Pods-InstaPrayerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InstaPrayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InstaPrayer;
+			};
+			name = Debug;
+		};
+		128D45D51D76CB360027EEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4A8616D88BDA31C2717256 /* Pods-InstaPrayerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InstaPrayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ewave.InstaPrayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InstaPrayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128D459D1D76CB360027EEE6 /* Build configuration list for PBXProject "InstaPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128D45CB1D76CB360027EEE6 /* Debug */,
+				128D45CC1D76CB360027EEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128D45CD1D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128D45CE1D76CB360027EEE6 /* Debug */,
+				128D45CF1D76CB360027EEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128D45D01D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128D45D11D76CB360027EEE6 /* Debug */,
+				128D45D21D76CB360027EEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128D45D31D76CB360027EEE6 /* Build configuration list for PBXNativeTarget "InstaPrayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128D45D41D76CB360027EEE6 /* Debug */,
+				128D45D51D76CB360027EEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		128D45AC1D76CB360027EEE6 /* InstaPrayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				128D45AD1D76CB360027EEE6 /* InstaPrayer.xcdatamodel */,
+			);
+			currentVersion = 128D45AD1D76CB360027EEE6 /* InstaPrayer.xcdatamodel */;
+			path = InstaPrayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 128D459A1D76CB360027EEE6 /* Project object */;
+}
